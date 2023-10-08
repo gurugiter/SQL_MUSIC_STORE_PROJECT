@@ -7,3 +7,5 @@ The repository contains Database and SQL query showcasing the Simple to advanced
 
 ## SCHEMA for SQL_MUSIC_STORE_PROJECT
 ![SCHEMA](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/MusicDatabaseSchema.png)
+
+## NOTE: Please download the ZIP file of database if you are unable to download the data using ZIP file: ' Music_store_data '
