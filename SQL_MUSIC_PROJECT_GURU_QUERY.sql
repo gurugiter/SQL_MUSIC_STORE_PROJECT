@@ -4,18 +4,19 @@ SELECT * FROM employee;
 
 --Question 1 - Who is the senior most employee based on job title?
 
-SELECT * FROM employee 
-ORDER BY levels DESC LIMIT 1;
+SELECT first_name, last_name, title, employee_id FROM employee 
+ORDER BY levels DESC LIMIT 2;
 
 -- QUESTION 2 - Which country has most invoices?
 
 SELECT billing_country as countries, count(invoice_id) as Num_of_invoices 
 FROM invoice 
-group by countries Order By Num_of_invoices Desc;
+group by countries Order By Num_of_invoices Desc
+LIMIT 10;
 
 -- QUESTION 3 - Top three values of invoices?
 
-SELECT total FROM invoice 
+SELECT customer_id, total FROM invoice 
 order by total desc limit 3;
 
 
@@ -24,7 +25,7 @@ order by total desc limit 3;
 --has the highest sum of invoice totals. Return both the city name & sum of all invoice 
 --total
 
-SELECT billing_city as City, SUM(total) as Total_sales
+SELECT billing_city City, SUM(total) Total_sales
 FROM invoice
 GROUP BY City ORDER BY Total_sales DESC
 LIMIT 1;
@@ -32,14 +33,14 @@ LIMIT 1;
 -- Multiple Joins, Subqueries
 
 -- QUESTION 5 - Who is the best customer? The customer who has spent the most money will be 
--- declared the best customer. Write a query that returns the person who has spent the 
--- most money
+-- declared the best customer. Write a query that returns the person who has spent the most money
 
-select c.Customer_id, CONCAT(c.first_name,c.last_name), Sum(i.total) as Total
+select c.Customer_id, CONCAT(TRIM(c.first_name),' ', c.last_name) Full_name, Sum(i.total) as Total
 from customer c 
 JOIN invoice i on c.Customer_id = i.Customer_id
 GROUP BY c.Customer_id
-ORDER BY Total DESC;
+ORDER BY Total DESC
+LIMIT 10;
 
 
 -- Question 6 -Write query to return the email, first name, last name, & Genre of all Rock Music 
