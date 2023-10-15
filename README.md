@@ -3,6 +3,7 @@ The repository contains Database and SQL query showcasing the Simple to advanced
 
 ## Databases and Tools used:
 * PostgreSQL
+* Power BI
 * pgAdmin 4
 
 ## POWER BI Dashboard based on analysis:
