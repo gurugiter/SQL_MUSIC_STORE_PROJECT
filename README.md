@@ -6,7 +6,7 @@ The repository contains Database and SQL query showcasing the Simple to advanced
 * pgAdmin 4
 
 ## POWER BI Dashboard based on analysis:
-![Dashboard](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/Music%20Warehouese%20Full%20Dshboard%20Power%20BI.pdf)
+![Dashboard](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/Power_BI_dashboard_Image.PNG)
 
 ## SCHEMA for SQL_MUSIC_STORE_PROJECT
 ![SCHEMA](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/MusicDatabaseSchema.png)
