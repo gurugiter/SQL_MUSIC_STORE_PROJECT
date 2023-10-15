@@ -5,7 +5,16 @@ The repository contains Database and SQL query showcasing the Simple to advanced
 * PostgreSQL
 * pgAdmin 4
 
+## POWER BI Dashboard based on analysis:
+![Dashboard](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/Music%20Warehouese%20Full%20Dshboard%20Power%20BI.pdf)
+
 ## SCHEMA for SQL_MUSIC_STORE_PROJECT
 ![SCHEMA](https://github.com/gurugiter/SQL_MUSIC_STORE_PROJECT/blob/main/MusicDatabaseSchema.png)
 
-## NOTE: Please download the ZIP file of database if you are unable to download the data using ZIP file: ' Music_store_data '
+### Findings which are help ful for the Store Owners:
+* Most Popular Genre is 'Rock'.
+* Best Selling ARtist is 'Queen'.
+* "Led Zeppelin" is the brand with most Rock Songs.
+* "USA", "Canada", and "Brazil" are the countries with most Orders placed.
+
+### NOTE: Please download the ZIP file of database if you are unable to download the data using ZIP file: ' Music_store_data '
